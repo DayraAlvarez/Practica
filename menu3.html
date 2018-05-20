@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bee-set</title>
+  <title>Bee-ready</title>
   <link rel="icon" href="img/bee1.png"></link>
   <!--Links assets-->
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/menu3/style.css">
 </head>
 <!--Body-->
 <body>
@@ -17,16 +17,31 @@
      <li><a id="desplegable" href=""><i class="fas fa-bars"></i></a>
        <ul>
          <li><a href="index.html">Home</a></li>
-         <li><a href="menu1.html">Home</a></li>
-         <li><a href="menu2.html">Home</a></li>
+         <li><a href="menu1.html">Menu 1</a></li>
+         <li><a href="menu2.html">Menu 2</a></li>
        </ul>
      </li>
     </ul>
    <a id="main-logo" href="index.html"><i class="fas fa-crown"></i> Bee-ready</a>
-   <button type="button" <i class="fas fa-calendar-alt nav-button right-menu"></i></button>
+   <button type="button" <i class="far fa-envelope nav-button right-menu"></i></button>
    <button type="button" <i class="fas fa-user-circle nav-button right-menu"></i></button>
  </section>
-<!--List-->
-<script type="text/javascript" src="./js/app.js"></script>
+ <div class="interactive init">
+   <p>Interactive list in real time, share this link and try it!</p>
+   <br>
+   <input type="text" value="https://dayraalvarez.github.io/Firebase/" id="myInput" disabled>
+   <button onclick="myFunction()">Copy text</button>
+ </div>
+ <section class="interactive">
+   <input style="text" id="idea-input" placeholder="Search"/>
+   <button type="button" id="add-button">Add</button>
+   </div>
+   <div class="interactive">
+     <p id="ideas">To do list:</p>
+   </div>
+   </section>
+   <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+
+<script type="text/javascript" src="./js/menu3/app.js"></script>
 </body>
 </html>

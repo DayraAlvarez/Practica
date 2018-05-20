@@ -15,6 +15,7 @@ body {
   height: 100%;
 }
 
+/*Hexagon*/
 #navigator {
   background-color: #0E6E8C;
   color: white;
@@ -96,8 +97,8 @@ background: #1b83a3;
   left: 80%;
 }
 
-.profile {
-  background-color: #71D6B6;
+.interactive {
+  background-color: #5cb5af;
   display:block;
   font-family: helvetica;
   margin: 2em;
@@ -106,12 +107,6 @@ background: #1b83a3;
   border-radius: 4px;
 }
 
-.portfolio {
-  background-color: #71D6B6;
-  display:block;
-  font-family: helvetica;
-  margin: 2em;
-  padding:10px 10px;
-  color: #0E6E8C;
-  border-radius: 4px;
+.interactive .init {
+  margin: 4em;
 }
