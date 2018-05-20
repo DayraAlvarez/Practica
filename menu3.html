@@ -26,18 +26,20 @@
    <button type="button" <i class="far fa-envelope nav-button right-menu"></i></button>
    <button type="button" <i class="fas fa-user-circle nav-button right-menu"></i></button>
  </section>
- <div class="interactive init">
-   <p>Interactive list in real time, share this link and try it!</p>
+ <h1 id="firebase">Firebase</h1>
+ <div id="function-header">
+   <p><strong>Interactive list in real time, share this link and try it!</p>
    <br>
-   <input type="text" value="https://dayraalvarez.github.io/Firebase/" id="myInput" disabled>
-   <button onclick="myFunction()">Copy text</button>
+   <input class="share-link" type="text" value="https://dayraalvarez.github.io/Firebase/" id="myInput" disabled>
+   <button class="function-button" onclick="myFunction()">Copy text</button>
  </div>
- <section class="interactive">
-   <input style="text" id="idea-input" placeholder="Search"/>
-   <button type="button" id="add-button">Add</button>
+ <section>
+   <div id="function-section">
+   <input style="text" id="idea-input" placeholder="My pending task..."/>
+   <button class="function-button" type="button" id="add-button">Add</button>
    </div>
-   <div class="interactive">
-     <p id="ideas">To do list:</p>
+   <div id="interactive-list">
+     <p id="ideas"><strong>To do list:</p>  
    </div>
    </section>
    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>

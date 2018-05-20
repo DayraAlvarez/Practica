@@ -115,3 +115,20 @@ background: #1b83a3;
   color: #0E6E8C;
   border-radius: 4px;
 }
+
+#info {
+  display:block;
+  border-radius: 4px;
+  border:none;
+  padding: 15px 38px;
+  padding-bottom: 0px;
+}
+
+.portfolio-links {
+  text-decoration: none;
+  color: #0E6E8C;
+}
+
+.portfolio-links:hover {
+  color: #5cb5af;
+}
