@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom,#2F9292 0%, #99ffcc 115%);
+  color:white;
+  font-family: helvetica;
+  margin:0;
+  height: 100%;
+}
+
+/*Hexagon*/
+#navigator {
+  background-color: #0E6E8C;
+  color: white;
+  display: block;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  padding:0;
+  padding-bottom: 0.3em;
+}
+
+#desplegable {
+  font-family: helvetica;
+}
+
+ul, ol {
+ list-style: none;
+}
+
+.nav li a {
+  background-color: #0E6E8C;
+  color: white;
+  font-family: helvetica;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 9.5px 14px;
+  display: block;
+  width: 60px;
+}
+
+.nav li ul {
+  display: none;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li a:hover {
+background: #1b83a3;
+}
+
+.nav > li {
+  float: left;
+}
+
+.nav-button {
+  background-color: #2F9292;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 2px;
+  padding: 9px 12px;
+  cursor:pointer;
+}
+
+.nav-button:hover {
+  background-color: #5cb5af;
+  color:#fcefbf;
+}
+
+#main-logo {
+  text-decoration: none;
+  position: relative;
+  left:40%;
+  cursor:pointer;
+}
+
+#main-logo:visited {
+  color:white;
+}
+
+#main-logo:hover {
+  color:#fcefbf;
+}
+
+.right-menu {
+  position: relative;
+  left: 80%;
+}
+/*Hexagon*/
+
+.hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #fcefbf;
+  margin: 86.60px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #fcefbf;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #fcefbf;
+}
